@@ -1,0 +1,145 @@
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+justify-content: end;
+align-items: center;
+background-color: #5c87ff;
+
+}
+.list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    
+}
+.list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  
+}
+.content{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+.content:hover{
+text-decoration: underline;
+
+}
+
+.form-header{
+    margin: 0 auto;
+background-color: white;
+max-width: 370px;
+height: 85vh;
+text-align: center;
+margin-top: 20px;
+border-radius: 20px;
+
+}
+
+.mains{
+bottom: 0px;
+}
+label{
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+}
+.form-header h2{
+padding-top: 30px;
+color: blue;
+}
+.main2{
+color: black;
+font-size: 14px;
+}
+.form-main{
+text-align: start;
+margin-left: 20px;
+
+}
+.input-txt{
+width: 290px;
+height: 42px;
+margin: 3px; 
+border: solid 1px lightgray;
+border-radius: 4px; 
+}
+.form-main input{
+margin-bottom: 10px;
+}
+.sign-up-section{
+width: 290px;
+height: 40px;
+margin: 7px;
+background-color: #5c87ff;
+border: none;
+border-radius: 4px;
+color: white;
+}
+.form-p2{
+text-align:center;
+   
+}
+span{
+color: #5c87ff;
+}
+
+
+@media (max-width:1300px) {
+.form-header{
+background-color: white;
+max-width: 370px;
+height: 90vh;
+text-align: center;
+margin-top: 20px;
+border-radius: 20px;
+}
+
+.main-header{
+    display: inline-flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+}
+
+
+@media (max-width:390px) {
+
+ .form-header{
+margin: 0 auto;
+box-shadow: 4px 7px 4px white;
+background-color: white;
+max-width: 300px;
+max-height: 500px;
+text-align: center;
+margin-top: 0px;
+} 
+.form-main{
+text-align: start;
+margin-left: 40px;
+}
+.input-txt{
+width: 200px;
+height: 30px;
+margin: 5px; 
+}
+.form-main input{
+margin-bottom: 10px;
+}
+.form-p{
+text-align: center;
+background-color: #5c87ff;
+max-width: 200px;
+padding: 10px;
+border-radius: 5px;
+}
+}
