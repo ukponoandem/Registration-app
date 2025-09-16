@@ -44,10 +44,10 @@
  <input type="number" class="input-txt"><br>
 
  <label>Password:</label><br>
-<input type="password" class="input-txt"> 
+<input type="password" class="input-txt"> <br>
 
  <label>Comfirmed Password:</label><br>
-<input type="password" class="input-txt"> 
+<input type="password" class="input-txt"> <br>
 
 <button class="sign-up-section">Register</button>
     </form>
@@ -56,6 +56,60 @@
 
   
    </div>
+
+<!-- 
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Progress Bar</title>
+  <style>
+    #progress-container {
+      width: 100%;
+      background-color: #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 30px;
+      margin: 50px auto;
+      max-width: 500px;
+    }
+
+    #progress-bar {
+      height: 100%;
+      width: 0%;
+      background-color: #4caf50;
+      text-align: end;
+      line-height: 30px;
+      color: white;
+      transition: width 0.1s;
+    }
+  </style>
+</head>
+<body>
+
+<div id="progress-container">
+  <div id="progress-bar">0%</div>
+</div>
+
+<script>
+  let progress = 0;
+  const progressBar = document.getElementById("progress-bar");
+
+  const interval = setInterval(() => {
+    if (progress >= 100) {
+      clearInterval(interval);
+    } else {
+      progress++;
+      progressBar.style.width = progress + "%";
+      progressBar.textContent = progress + "%";
+    }
+  }, 60); // 100ms = 10 seconds total for 100 steps
+</script>
+
+</body>
+</html> -->
+
 
     </body>
 </html>
